@@ -9,23 +9,23 @@
 </head>
 <body>
     <div class="text-center">
-        <h2>Framework hesu daza, anhe heredia</h2>
-        <div class="flex f-column ">
-            <fieldset>
-                <legend>Text</legend>
+        <h2 class="fw-bold text-xxl my1">Framework hesu daza, anhe heredia</h2>
+        <div class="w100">
+            <fieldset class="flex j-around a-center">
+                <legend class="fw-bold text-xl mb2">Text</legend>
                 <p class="primary">Primary</p>
                 <p class="secondary">Secundary</p>
                 <p class="danger">Danger</p>
                 <p class="warning">Warning</p>
                 <p class="success">Success</p>
-                <p class="bg-dark light">Light</p>
+                <p class="bg-dark light p1">Light</p>
                 <p class="dark">Dark</p>
             </fieldset>
         </div>
         <br>
         <div>
-            <fieldset>
-                <legend>Buttons</legend>
+            <fieldset class="flex j-around a-center">
+                <legend class="fw-bold text-xl my1">Buttons</legend>
                 <button class="btn m1">Normal</button>
                 <button class="btn btn-primary m1">Primary</button>
                 <button class="btn btn-secondary m1">secondary</button>
@@ -35,21 +35,46 @@
                 <button class="btn btn-warning m1">Warning</button>
                 <button class="btn btn-success m1">success</button>
                 <button disabled class="btn btn-disabled m1">Disabled</button>
-                <input type="file" class="m1">
             </fieldset>
         </div>
         <br>
         <div>
             <fieldset>
-                <legend>Inputs</legend>
-                <input type="text" placeholder="Text">
-                <input type="password" class="" placeholder="Pass">
+                <legend class="fw-bold text-xl my1">Inputs</legend>
+                <h1>Text</h1>
+                <div class="my2 flex j-around a-center">
+                    <input type="text" class="input-primary" placeholder="Text">
+                    <input type="text" class="input-secondary" placeholder="Text">
+                    <input type="text" class="input-danger" placeholder="Text">
+                    <input type="text" class="input-warning" placeholder="Text">
+                    <input type="text" class="input-success" placeholder="Text">
+                    <input type="text" class="input-dark" placeholder="Text">
+                </div>
+                <h1>Password</h1>
+                <div class="my2 flex j-around a-center">
+                    <input type="password" class="input-primary" placeholder="Password">
+                    <input type="password" class="input-secondary" placeholder="Password">
+                    <input type="password" class="input-danger" placeholder="Password">
+                    <input type="password" class="input-warning" placeholder="Password">
+                    <input type="password" class="input-success" placeholder="Password">
+                    <input type="password" class="input-dark" placeholder="Password">
+                </div>
+                <h1>File</h1>
+                <div class="my2 flex j-around a-center">
+                    <label id="labelFile" for="file">Select a file</label>
+                    <input id="file" name="file" type="file" class="m1">
+                </div>
+                <div class="my2 flex j-around a-center">
+                    
+                </div>
+                
+                
             </fieldset>
         </div>
         <br>
         <div>
             <fieldset class="flex j-start">
-                <legend>Containers</legend>
+                <legend class="fw-bold text-xl">Containers</legend>
                 <div class="w50 ">Esto es un div</div>
                 <div class="w50">Div centrado</div>
                 <div class="w50 bg-primary">Div con color de fondo</div>
