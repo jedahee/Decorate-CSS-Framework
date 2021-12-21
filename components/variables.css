@@ -2,11 +2,11 @@
 
 :root {
     --primary: #0ea2f6;
-    --secondary: #3d3a50;
+    --secondary: #5e5c6b;
     --danger: #950101;
     --warning: #ffa800;
     --success: #499b4a;
     --light: #f4fcfe;
     --dark: #303041;
-    --disabled: rgba(150, 150, 150, 0.342);
+    --disabled: #96969696;
 }

@@ -1,5 +1,6 @@
 /* FORM INPUTS */
 
+/* TYPE TEXT */
 input[type="text"] {
     padding: .5em 1em;
     border: none;
@@ -10,29 +11,151 @@ input[type="text"] {
     color: var(--secondary);
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    transition: border-bottom .4s ease;
 }
 
 input[type="text"].input-primary {
-    border-bottom: 2px solid var(--primary);
     border-left: 10px solid var(--primary);
 }
 
+input[type="text"].input-primary:hover, input[type="text"].input-primary:focus {
+    border-bottom: 2px solid var(--primary);
+}
+
 input[type="text"].input-dark {
-    border-bottom: 2px solid var(--dark);
     border-left: 10px solid var(--dark);
 }
 
+input[type="text"].input-dark:hover, input[type="text"].input-dark:focus {
+    border-bottom: 2px solid var(--dark);
+}
+
 input[type="text"].input-danger {
-    border-bottom: 2px solid var(--danger);
     border-left: 10px solid var(--danger);
 }
 
+input[type="text"].input-danger:hover, input[type="text"].input-danger:focus {
+    border-bottom: 2px solid var(--danger);
+}
+
 input[type="text"].input-warning {
-    border-bottom: 2px solid var(--warning);
     border-left: 10px solid var(--warning);
 }
 
+input[type="text"].input-warning:hover, input[type="text"].input-warning:focus {
+    border-bottom: 2px solid var(--warning);
+}
+
+
 input[type="text"].input-success {
-    border-bottom: 2px solid var(--success);
     border-left: 10px solid var(--success);
+}
+
+input[type="text"].input-success:hover, input[type="password"].input-success:focus {
+    border-bottom: 2px solid var(--success);
+}
+
+/* TYPE PASSWORD */
+input[type="password"] {
+    padding: .5em 1em;
+    border: none;
+    border-bottom: 2px solid var(--secondary);
+    border-left: 10px solid var(--secondary);
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    transition: border-bottom .4s ease;
+}
+
+input[type="password"].input-primary {
+    border-left: 10px solid var(--primary);
+    
+}
+
+input[type="password"].input-primary:hover, input[type="password"].input-primary:focus {
+    border-bottom: 2px solid var(--primary);
+}
+
+input[type="password"].input-dark {
+    border-left: 10px solid var(--dark);
+}
+
+input[type="password"].input-dark:hover, input[type="password"].input-dark:focus {
+    border-bottom: 2px solid var(--dark);
+}
+
+input[type="password"].input-danger {
+    border-left: 10px solid var(--danger);
+}
+
+input[type="password"].input-danger:hover, input[type="password"].input-danger:focus {
+    border-bottom: 2px solid var(--danger);
+}
+
+input[type="password"].input-warning {
+    border-left: 10px solid var(--warning);
+}
+
+input[type="password"].input-warning:hover, input[type="password"].input-warning:focus {
+    border-bottom: 2px solid var(--warning);
+}
+
+
+input[type="password"].input-success {
+    border-left: 10px solid var(--success);
+}
+
+input[type="password"].input-success:hover, input[type="password"].input-success:focus {
+    border-bottom: 2px solid var(--success);
+}
+
+/* TYPE SUBMIT */
+#labelFile {
+    padding: .5em 1em;
+    border: none;
+    border: 2px solid var(--secondary);
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    transition: color .4s ease;
+    overflow: hidden;
+}
+
+#labelFile::after {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--dark);
+    transition: width .5s ease, height .5s ease;
+}
+
+#labelFile:hover::after {
+    height: 160px;
+    width: 160px;
+}
+
+#labelFile:hover {
+    color: var(--light);
+}
+
+input[type="file"] {
+    overflow: hidden;
+    display: none;
 }

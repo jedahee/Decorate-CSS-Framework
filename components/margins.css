@@ -1,6 +1,62 @@
 
 /* MARGINS */
 
+.my0 {
+    margin: 0em 0em;
+}
+
+.my1 {
+    margin: 1em 0;
+}
+
+.my2 {
+    margin: 2em 0;
+}
+
+.my3 {
+    margin: 3em 0;
+}
+
+.my4 {
+    margin: 4em 0;
+}
+
+.my5 {
+    margin: 5em 0;
+}
+
+.myAuto {
+    margin: auto 0;
+}
+
+.mx0 {
+    margin: 0em 0em;
+}
+
+.mx1 {
+    margin: 0 1em;
+}
+
+.mx2 {
+    margin: 0 2em;
+}
+
+.mx3 {
+    margin: 0 3em;
+}
+
+.mx4 {
+    margin: 0 4em;
+}
+
+.mx5 {
+    margin: 0 5em;
+}
+
+.mxAuto {
+    margin: 0 auto;
+}
+
 .mAuto {
     margin: auto;
 }

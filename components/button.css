@@ -29,12 +29,16 @@
     border-radius: 50%;
     z-index: -1;
     background-color: var(--dark);
-    transition: width .4s ease, height .4s ease;
+    transition: width .5s ease, height .5s ease;
 }
 
 .btn:hover::after {
-    height: 130px;
-    width: 130px;
+    height: 150px;
+    width: 150px;
+}
+
+.btn:disabled {
+    pointer-events: none;
 }
 
 .btn:hover {

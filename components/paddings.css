@@ -1,5 +1,61 @@
 /* PADDINGS */
 
+.py0 {
+    padding: 0em 0em;
+}
+
+.py1 {
+    padding: 1em 0;
+}
+
+.py2 {
+    padding: 2em 0;
+}
+
+.py3 {
+    padding: 3em 0;
+}
+
+.py4 {
+    padding: 4em 0;
+}
+
+.py5 {
+    padding: 5em 0;
+}
+
+.pyAuto {
+    padding: auto 0;
+}
+
+.px0 {
+    padding: 0em 0em;
+}
+
+.px1 {
+    padding: 0 1em;
+}
+
+.px2 {
+    padding: 0 2em;
+}
+
+.px3 {
+    padding: 0 3em;
+}
+
+.px4 {
+    padding: 0 4em;
+}
+
+.px5 {
+    padding: 0 5em;
+}
+
+.pxAuto {
+    padding: 0 auto;
+}
+
 .pAuto {
     padding: auto;
 }
