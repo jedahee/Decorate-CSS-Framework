@@ -1,0 +1,66 @@
+/* FONTS */
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fw-light {
+    font-weight: lighter;
+}
+
+.text-sm {
+    font-size: .8em;
+}
+
+
+.text-md {
+    font-size: 1em;
+}
+
+
+.text-lg {
+    font-size: 1.3em;
+}
+
+
+.text-xl {
+    font-size: 1.7em;
+}
+
+
+.text-xxl {
+    font-size: 2em;
+}
+
+
+.text-xxxl {
+    font-size: 3em;
+}
+
+.text-i {
+    font-style: italic;
+}

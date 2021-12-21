@@ -1,0 +1,38 @@
+/* FORM INPUTS */
+
+input[type="text"] {
+    padding: .5em 1em;
+    border: none;
+    border-bottom: 2px solid var(--secondary);
+    border-left: 10px solid var(--secondary);
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--secondary);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+input[type="text"].input-primary {
+    border-bottom: 2px solid var(--primary);
+    border-left: 10px solid var(--primary);
+}
+
+input[type="text"].input-dark {
+    border-bottom: 2px solid var(--dark);
+    border-left: 10px solid var(--dark);
+}
+
+input[type="text"].input-danger {
+    border-bottom: 2px solid var(--danger);
+    border-left: 10px solid var(--danger);
+}
+
+input[type="text"].input-warning {
+    border-bottom: 2px solid var(--warning);
+    border-left: 10px solid var(--warning);
+}
+
+input[type="text"].input-success {
+    border-bottom: 2px solid var(--success);
+    border-left: 10px solid var(--success);
+}

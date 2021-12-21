@@ -1,0 +1,21 @@
+/* OTHERS */
+
+.rounded {
+    border-radius: 10px;
+}
+
+.rounded-md {
+    border-radius: 25px;
+}
+
+.rounded-lg {
+    border-radius: 40px;
+}
+
+.rounded-xl {
+    border-radius: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+}

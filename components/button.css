@@ -1,0 +1,96 @@
+/* BUTTONS */
+
+.btn {
+    padding: 1em;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px solid var(--dark);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color .4s ease;
+    font-size: 16px;
+}
+
+.btn::after {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--dark);
+    transition: width .4s ease, height .4s ease;
+}
+
+.btn:hover::after {
+    height: 130px;
+    width: 130px;
+}
+
+.btn:hover {
+    color: var(--light);
+}
+
+.btn-primary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-primary::after {
+    background-color: var(--primary);    
+}
+
+.btn-secondary {
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+.btn-secondary::after {
+    background-color: var(--secondary);    
+}
+
+.btn-danger {
+    border: 2px solid var(--danger);
+    color: var(--danger);
+}
+
+.btn-danger::after {
+    background-color: var(--danger);    
+}
+
+.btn-warning {
+    border: 2px solid var(--warning);
+    color: var(--warning);
+}
+
+.btn-warning::after {
+    background-color: var(--warning);    
+}
+
+.btn-success {
+    border: 2px solid var(--success);
+    color: var(--success);
+}
+
+.btn-success::after {
+    background-color: var(--success);    
+}
+
+.btn-disabled {
+    border: 2px solid var(--disabled);
+    color: var(--disabled);
+}
+
+.btn-disabled::after{
+    background-color: var(--disabled);    
+}
