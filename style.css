@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('components/reset.css');
+@import url('components/variables.css');
+@import url('components/margins.css');
+@import url('components/paddings.css');
+@import url('components/width-height.css');
+@import url('components/containers.css');
+@import url('components/text.css');
+@import url('components/layout.css');
+@import url('components/button.css');
+@import url('components/input.css');
+@import url('components/floats.css');
+@import url('components/fonts.css');
+@import url('components/background.css');
+@import url('components/others.css');
