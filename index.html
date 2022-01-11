@@ -7,123 +7,231 @@
     <title>Pagina prueba</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="flex f-column ai-center p1">
     <div class="text-center">
-        <h2 class="fw-bold text-xxl my1">Framework hesu daza, anhe heredia</h2>
+        <h2 class="fw-bold text-xxxl my1">Framework hesu daza, anhe heredia</h2>
         <div class="w100">
-            <fieldset class="flex j-around a-center fieldset">
-                <legend class="fw-bold text-xl mb2">Text</legend>
-                <p class="primary">Primary</p>
-                <p class="secondary">Secundary</p>
-                <p class="danger">Danger</p>
-                <p class="warning">Warning</p>
-                <p class="success">Success</p>
-                <p class="bg-dark light p1">Light</p>
-                <p class="dark">Dark</p>
+            <fieldset class="flex wrap jc-around ai-center">
+                <legend class="fw-bold text-xxl mb2">Text</legend>
+                <p class="m1 primary">Primary</p>
+                <p class="m1 secondary">Secundary</p>
+                <p class="m1 danger">Danger</p>
+                <p class="m1 warning">Warning</p>
+                <p class="m1 success">Success</p>
+                <p class="m1 bg-dark light p1">Light</p>
+                <p class="m1 dark">Dark</p>
             </fieldset>
         </div>
         <br>
         <div>
-            <fieldset class="flex j-around a-center fieldset">
-                <legend class="fw-bold text-xl my1">Buttons</legend>
+            <fieldset class="flex wrap jc-around ai-center">
+                <legend class="fw-bold text-xxl my1">Buttons</legend>
                 <button class="btn m1">Normal</button>
                 <button class="btn btn-primary m1">Primary</button>
-                <button class="btn btn-secondary m1">secondary</button>
+                <button class="btn btn-secondary m1">Secondary</button>
                 <button class="btn m1">Reset</button>
                 <button class="btn m1">Cancel</button>
                 <button class="btn btn-danger m1">Danger</button>
                 <button class="btn btn-warning m1">Warning</button>
-                <button class="btn btn-success m1">success</button>
+                <button class="btn btn-success m1">Success</button>
                 <button disabled class="btn btn-disabled m1">Disabled</button>
             </fieldset>
         </div>
         <br>
         <div>
-            <fieldset class="fieldset">
-                <legend class="fw-bold text-xl my1">Inputs</legend>
-                <h1>Text</h1>
-                <div class="my2 flex j-around a-center">
-                    <input type="text" class="input-primary" placeholder="Text">
-                    <input type="text" class="input-secondary" placeholder="Text">
-                    <input type="text" class="input-danger" placeholder="Text">
-                    <input type="text" class="input-warning" placeholder="Text">
-                    <input type="text" class="input-success" placeholder="Text">
-                    <input type="text" class="input-dark" placeholder="Text">
+                <legend class="fw-bold text-xxl my1">Inputs</legend>
+                <h1 class="text-lg">Text</h1>
+                <div class="my2 flex jc-around ai-center wrap">
+                    <input type="text" class="m1 input-primary" placeholder="Text">
+                    <input type="text" class="m1 input-secondary" placeholder="Text">
+                    <input type="text" class="m1 input-danger" placeholder="Text">
+                    <input type="text" class="m1 input-warning" placeholder="Text">
+                    <input type="text" class="m1 input-success" placeholder="Text">
+                    <input type="text" class="m1 input-dark" placeholder="Text">
                 </div>
-                <h1>Password</h1>
-                <div class="my2 flex j-around a-center">
-                    <input type="password" class="input-primary" placeholder="Password">
-                    <input type="password" class="input-secondary" placeholder="Password">
-                    <input type="password" class="input-danger" placeholder="Password">
-                    <input type="password" class="input-warning" placeholder="Password">
-                    <input type="password" class="input-success" placeholder="Password">
-                    <input type="password" class="input-dark" placeholder="Password">
+                <h1 class="text-lg">Password</h1>
+                <div class="my2 flex jc-around ai-center wrap">
+                    <input type="password" class="m1 input-primary" placeholder="Password">
+                    <input type="password" class="m1 input-secondary" placeholder="Password">
+                    <input type="password" class="m1 input-danger" placeholder="Password">
+                    <input type="password" class="m1 input-warning" placeholder="Password">
+                    <input type="password" class="m1 input-success" placeholder="Password">
+                    <input type="password" class="m1 input-dark" placeholder="Password">
                 </div>
-                <h1>File</h1>
-                <div class="my2 flex j-around a-center">
+                <h1 class="text-lg">File</h1>
+                <div class="my2 flex jc-around ai-center">
                     <label id="labelFile" for="file">Select a file</label>
                     <input id="file" name="file" type="file" class="m1">
                 </div>
-                <div class="my2 flex j-around a-center">
-                    
+                <h1 class="text-lg">Radiobutton</h1>
+                <div class="my2 flex f-column jc-around ai-center">
+                    <div class="radio radio-success">
+                        <input type="radio" name="example" id="example1">
+                        <label for="example1">Example 1</label>
+                    </div>
+                    <div class="radio radio-primary">
+                        <input type="radio" name="example" id="example2">
+                        <label for="example2">Example 2</label>
+                    </div>
+                    <div class="radio radio-danger">
+                        <input type="radio" name="example" id="example3">
+                        <label for="example3">Example 3</label>
+                    </div>
+                    <div class="radio radio-warning">
+                        <input type="radio" name="example" id="example4">
+                        <label for="example4">Example 4</label>
+                    </div>
+                    <div class="radio radio-secondary">
+                        <input type="radio" name="example" id="example5">
+                        <label for="example5">Example 5</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="example" id="example6">
+                        <label for="example6">Example 6</label>
+                    </div>
                 </div>
-                
-                
-            </fieldset>
+                <h1 class="text-lg">Range</h1>
+                <div>
+                    <input type="range" class="range" name="" id="">
+                    <input type="range" class="range range-primary" name="" id="">
+                    <input type="range" class="range range-secondary" name="" id="">
+                    <input type="range" class="range range-danger" name="" id="">
+                    <input type="range" class="range range-success" name="" id="">
+                    <input type="range" class="range range-warning" step="2" min="0" max="10" name="" id="">
+                    <div class="bg-dark w25 mxAuto mt2 mb2 flex jc-center ai-center p1">
+                        <input type="range" class="range range-light" step="2" min="0" max="10" name="" id="">
+                    </div>
+                </div>
+                <h1 class="text-lg mb1">Checkbox</h1>
+                <div class="flex wrap f-column jc-center ai-center">
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch1" class="checkbox checkbox-primary">
+                        <label for="example_ch1">Example 1</label>
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch2" class="checkbox checkbox-secondary">
+                        <label for="example_ch2">Example 2</label>
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch3" class="checkbox checkbox-success">
+                        <label for="example_ch3">Example 3</label>
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch4" class="checkbox checkbox-danger">
+                        <label for="example_ch4">Example 4</label>
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch5" class="checkbox checkbox-warning">
+                        <label for="example_ch5">Example 5</label>
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="example_ch" id="example_ch6" class="checkbox">
+                        <label for="example_ch6">Example 6</label>
+                    </div>
+                </div>
+                <h1 class="text-lg mt2">Select</h1>
+                <div class="mb2 flex jc-around ai-center">
+                    <select class="select">
+                        <option selected disabled value="-1">Escoge una opción</option>
+                        <option value="Opcion1">Opción 1</option>
+                        <option value="Opcion2">Opción 2</option>
+                        <option value="Opcion3">Opción 3</option>
+                    </select>
+                </div>
+                <h1 class="text-xxl">Links</h1>
+                <div class="my2 flex wrap jc-around ai-center">
+                    <a class="m1 link link-primary" href="#">Primary Link</a>
+                    <a class="m1 link link-secondary" href="#">Secondary Link</a>
+                    <a class="m1 link link-danger" href="#">Danger Link</a>
+                    <a class="m1 link link-warning" href="#">Warning Link</a>
+                    <a class="m1 link link-success" href="#">Success Link</a>
+                    <a class="m1 link link-light bg-dark pb1" href="#">Light Link</a>
+                </div>
         </div>
         <br>
         <div>
-            <fieldset class="flex j-start fieldset">
-                <legend class="fw-bold text-xl">Containers</legend>
-                <div class="w50 ">Esto es un div</div>
-                <div class="w50">Div centrado</div>
-                <div class="w50 bg-primary">Div con color de fondo</div>
-            </fieldset>
-        </div>
-        <br>
-        <div>
-            <fieldset class="fieldset">
-                <legend>List</legend>
-                <ul>
-                    <li>Elemento 1</li>
-                    <li>Elemento 2</li>
-                    <li>Elemento 3</li>
-                    <li>Elemento 4</li>
-                    <li>Elemento 5</li>
+            <h1 class="text-xxl">List</h1>
+            <fieldset class="w100 flex jc-center">
+                <ul class="ul-container m2">
+                    <li class="list list">Elemento 0</li>
+                    <li class="list list-primary">Elemento 1</li>
+                    <li class="list list-secondary">Elemento 2</li>
+                    <li class="list list-danger">Elemento 3</li>
+                    <li class="list list-warning">Elemento 4</li>
+                    <li class="list list-success">Elemento 5</li>
+                    <div class="bg-dark py1">
+                        <li class="list list-light">Elemento 6</li>
+                    </div>
+                    
                 </ul>
+                
+                <ol class="ol-container m2">
+                    <li class="list">Elemento 0</li>
+                    <li class="list list-primary">Elemento 1</li>
+                    <li class="list list-secondary">Elemento 2</li>
+                    <li class="list list-danger">Elemento 3</li>
+                    <li class="list list-warning">Elemento 4</li>
+                    <li class="list list-success">Elemento 5</li>
+                    <div class="bg-dark p1">
+                        <li class="list list-light">Elemento 6</li>
+                    </div>
+                </ol>
             </fieldset>
         </div>
         <br>
-        <div class="">
-            <fieldset class="fieldset">
-                <legend>Tables</legend>
-                <table>
-                    <thead>
-                        <th>Cabecera 1</th>
-                        <th>Cabecera 2</th>
-                        <th>Cabecera 3</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                        </tr>
-                        <tr>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                        </tr>
-                        <tr>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                            <td>Elemento</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div>
+            <h1>Textarea</h1>
+            <textarea class="" rows="10"></textarea>
+        </div>
+        <div class="w100 flex f-column jc-center">
+            <h1>Icons</h1>
+            <fieldset class="w100 flex jc-around ai-center">
+
+                <a href="#" class="icon icon-dc">
+                    
+                </a>
+                
+                <a class="icon icon-ig">
+                    
+                </a>
+                
+                <a class="icon icon-wh">
+                    
+                </a>
+                
+                <a class="icon icon-in">
+                    
+                </a>
+                
+                <a class="icon icon-fb">
+                    
+                </a>
+                
+                <a class="icon icon-gh">
+                    
+                </a>
+                
+                <a class="icon icon-gm">
+                    
+                </a>
+                
+                <a class="icon icon-tch">
+                    
+                </a>
+                
+                <a class="icon icon-rd">
+                    
+                </a>
+                
+                <a class="icon icon-yt">
+                    
+                </a>
+
+                <a class="icon icon-tw">
+                    
+                </a>
             </fieldset>
         </div>
-        <br>
     </div>
 </body>
 </html>
