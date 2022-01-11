@@ -1,0 +1,13 @@
+/* SELECTS */
+
+.select {
+    padding: .5em;
+    padding-left: .8em;
+    border-bottom: 2px solid var(--dark);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+option:hover {
+    -color: tomato;
+}

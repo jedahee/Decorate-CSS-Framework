@@ -1,0 +1,75 @@
+/* LINKS */
+
+.link {
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    color: var(--dark);
+    padding-bottom: 1px;
+}
+
+.link-primary {
+    color: var(--primary);
+}
+
+.link-secondary {
+    color: var(--secondary);
+}
+
+.link-danger {
+    color: var(--danger);
+}
+
+.link-warning {
+    color: var(--warning);
+}
+
+.link-success {
+    color: var(--success);
+}
+
+.link-light {
+    color: var(--light);
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    border-radius: 100px;
+    width: 100%;
+    bottom: 0;
+    left: -100%;
+    background-color: var(--dark);
+    display: inline;
+    transition: left .4s ease-in-out;
+}
+
+.link-primary::before {
+    background-color: var(--primary);
+}
+
+.link-secondary::before {
+    background-color: var(--secondary);
+}
+
+.link-danger::before {
+    background-color: var(--danger);
+}
+
+.link-warning::before {
+    background-color: var(--warning);
+}
+
+.link-success::before {
+    background-color: var(--success);
+}
+
+.link-light::before {
+    background-color: var(--light);
+}
+
+.link:hover::before {
+    left: 0;
+}
+

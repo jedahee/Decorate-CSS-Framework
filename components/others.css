@@ -19,3 +19,54 @@
 .circle {
     border-radius: 50%;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-visible {
+    overflow: visible;
+
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflowX-hidden {
+    overflow-x: hidden;
+}
+
+.overflowX-visible {
+    overflow-x: visible;
+
+}
+
+.overflowX-scroll {
+    overflow-x: scroll;
+}
+
+.overflowX-auto {
+    overflow-x: auto;
+}
+
+.overflowY-hidden {
+    overflow-y: hidden;
+}
+
+.overflowY-visible {
+    overflow-y: visible;
+
+}
+
+.overflowY-scroll {
+    overflow-y: scroll;
+}
+
+.overflowY-auto {
+    overflow-y: auto;
+}

@@ -1,0 +1,47 @@
+/* POSITIONS */
+
+.p-relative {
+    position: relative;
+}
+
+.p-static {
+    position: static;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.p-sticky {
+    position: sticky;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.y-top {
+    top: 0;
+}
+
+.y-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.y-bottom {
+    bottom: 0;
+}
+
+.x-left {
+    left: 0;
+}
+
+.x-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.x-right {
+    right: 0;
+}

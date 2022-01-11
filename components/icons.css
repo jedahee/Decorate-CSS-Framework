@@ -1,0 +1,156 @@
+/* ICONS */
+
+.icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid var(--dark);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 24px;
+    background-repeat: no-repeat;
+
+    transition: border .4s ease;
+
+}
+
+.icon::before {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 50%;
+    background-color: var(--light);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+    transition: width .6s ease, height .6s ease;
+}
+
+.icon:hover::before {
+    height: 25px;
+    width: 25px;
+}
+
+.icon::after {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -2;
+    background-color: var(--dark);
+    transition: width .6s ease, height .6s ease;
+}
+
+.icon:hover::after {
+    height: 65px;
+    width: 65px;
+}
+
+.icon-dc {
+    border: 2px solid #7289da;
+    background-image: url(../icons/discord.png);
+}
+
+.icon-dc::after {
+    background-color: #7289da;
+}
+
+.icon-ig {
+    border: 2px solid #C13584;
+    background-image: url(../icons/instagram.png);
+}
+
+.icon-ig::after {
+    background-color: #C13584;
+}
+
+.icon-wh {
+    border: 2px solid #00bb2d;
+    background-image: url(../icons/whatsapp.png);
+}
+
+.icon-wh::after {
+    background-color: #00bb2d;
+}
+
+.icon-in {
+    border: 2px solid #0e76a8;
+    background-image: url(../icons/linkedin.png);
+}
+
+.icon-in::after {
+    background-color: #0e76a8;
+}
+
+.icon-fb {
+    border: 2px solid #3b5998;
+    background-image: url(../icons/facebook.png);
+}
+
+.icon-fb::after {
+    background-color: #3b5998;
+}
+
+.icon-gh {
+    border: 2px solid #171515;
+    background-image: url(../icons/github.png);
+}
+
+.icon-gh::after {
+    background-color: #171515;
+}
+
+.icon-gm {
+    border: 2px solid #DB4A39;
+    background-image: url(../icons/gmail.png);
+}
+
+.icon-gm::after {
+    background-color: #DB4A39;
+}
+
+.icon-tch {
+    border: 2px solid #6441a5;
+    background-image: url(../icons/twitch.png);
+}
+
+.icon-tch::after {
+    background-color: #6441a5;
+}
+
+.icon-rd {
+    border: 2px solid #FF5700;
+    background-image: url(../icons/reddit.png);
+}
+
+.icon-rd::after {
+    background-color: #FF5700;
+}
+
+.icon-yt {  
+    border: 2px solid #c4302b;
+    background-image: url(../icons/youtube.png);
+}
+
+.icon-yt::after {
+    background-color: #c4302b;
+}
+
+.icon-tw {
+    border: 2px solid #00acee;
+    background-image: url(../icons/twitter.png);
+}
+
+.icon-tw::after {
+    background-color: #00acee;
+}

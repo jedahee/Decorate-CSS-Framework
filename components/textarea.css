@@ -1,0 +1,14 @@
+/* TEXTAREA */
+
+textarea {
+    border: 2px solid var(--dark);
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    resize: none;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}

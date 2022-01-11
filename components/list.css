@@ -1,0 +1,81 @@
+/* LIST */
+
+.ul-container .list {
+    padding: .5em;
+    border-left: 5px solid var(--dark);
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.ul-container .list-primary {
+    border-left: 5px solid var(--primary);
+    color: var(--primary);
+}
+
+.ul-container .list-secondary {
+    border-left: 5px solid var(--secondary);
+    color: var(--secondary);
+}
+
+.ul-container .list-danger {
+    border-left: 5px solid var(--danger);
+    color: var(--danger);
+}
+
+.ul-container .list-warning {
+    border-left: 5px solid var(--warning);
+    color: var(--warning);
+}
+
+.ul-container .list-success {
+    border-left: 5px solid var(--success);
+    color: var(--success);
+}
+
+.ul-container .list-light {
+    border-left: 5px solid var(--light);
+    color: var(--light);
+}
+
+.ul-container .list:hover {
+    transform: translateX(10px);
+}
+
+.ol-container .list {
+    list-style-type: decimal;
+    padding: .5em;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.ol-container .list-primary {
+    color: var(--primary);
+}
+
+.ol-container .list-secondary {
+    color: var(--secondary);
+}
+
+.ol-container .list-danger {
+    color: var(--danger);
+}
+
+.ol-container .list-warning {
+    color: var(--warning);
+}
+
+.ol-container .list-success {
+    color: var(--success);
+}
+
+.ol-container .list-light {
+    color: var(--light);
+}
+
+.ol-container .list:hover {
+    transform: translateX(10px);
+}
