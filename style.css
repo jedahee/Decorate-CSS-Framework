@@ -2,16 +2,24 @@
 
 @import url('components/reset.css');
 @import url('components/variables.css');
+
 @import url('components/margins.css');
 @import url('components/paddings.css');
 @import url('components/width-height.css');
 @import url('components/containers.css');
 @import url('components/text.css');
-@import url('components/layout.css');
+@import url('components/grid.css');
+@import url('components/flex.css');
+@import url('components/textarea.css');
 @import url('components/button.css');
 @import url('components/input.css');
 @import url('components/floats.css');
 @import url('components/fonts.css');
+@import url('components/icons.css');
+@import url('components/select.css');
 @import url('components/background.css');
+@import url('components/link.css');
+@import url('components/list.css');
+@import url('components/position.css');
+@import url('components/border.css');
 @import url('components/others.css');
-@import url('components/form.css');
